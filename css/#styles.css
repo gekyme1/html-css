@@ -1,0 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+.header {position: relative; 
+width: 1376px;
+height: 108px;}
+.logo {width: 70; height: 74; position:  relative; flex-direction: column;}
