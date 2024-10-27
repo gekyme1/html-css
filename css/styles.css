@@ -4,7 +4,7 @@
 font-weight: 400px;
 font-style: normal;
 font-display: swap;
-}
+} 
     @font-face {
       font-family:'Roboto';
       src: url('./fonts/Roboto-Regular.woff2') format('woff2 ');
@@ -12,6 +12,14 @@ font-display: swap;
       font-style: normal;
       font-display: swap;
     }
+  :root {
+    --font-family-base:'Helvetica', sans-serif;
+    --font-family-base:'Roboto', sans-serif;
+    --input-height: 58px;
+    --container-width:1376px;
+    --container-padding-x: 15px;
+    --transition-duration: 0.2s;
+  }
 ::before,
 ::after {
   box-sizing: border-box;
