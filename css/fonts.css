@@ -1,0 +1,15 @@
+@font-face {
+    font-family:'Helvetica';
+    src: url('../fonts/Helvetica-Bold.woff2') format('woff2');
+    font-weight: 400px;
+    font-style: normal;
+    font-display: swap;
+} 
+
+@font-face {
+    font-family:'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2');
+    font-weight: 400px;
+    font-style: normal;
+    font-display: swap;
+}
