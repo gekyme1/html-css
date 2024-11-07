@@ -1,45 +1,40 @@
 #containermain {
     max-width: 100%;
-    min-width: 1376px;
-    min-height: 1107px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
     overflow: hidden;
-    margin-top: 160px;
+    border:1px solid red;
+    box-sizing: border-box;
     margin-right: 32px;
     margin-left: 32px;
+    margin-top: 30px;
 }
 
-.draggable {
-    position: absolute;
+.imagefirst {
+    max-width:678px;
+    max-height: 809px;
+    margin-left: 700px;
+    margin-top: 30px;
 }
 
-#image1 { 
-    width: 670px; 
-    height: 800px;
-    top: 622px;
-    left: 1298px;
-}
-
-#image2 {
-    width: 329px;
-    height: 493px;
-    top:929px;
-    left: 33px;
+.imagesecond {
+    max-width: 329px;
+    max-height: 493px;
+    margin-top: -500px;
+    margin-left: -15px;
 }
 
 .order {
     color: #212529;
-    margin-top: 250px;
+    font-family: var(--font-family-base);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    max-width: 164px;
+    max-height:23px;
+    margin-left:1200px;
 }
 
 .main-text {
-    position: absolute;
-    width: 794px; 
-    height: 258px;
-    display: flex;
-    flex-direction: column;
+    max-width: 794px;
     align-items: left;
     text-align: left;
     font-family:var(--font-family-accent);
@@ -51,11 +46,12 @@
 }
 
 .introtext {
-    width:445px;
-    height: 84px;
-    margin-top: 300px;
-}
-
-.intro__text{
+    max-width: 445px;
+    max-height: 44px;
+    margin-top: 15px;
+    color: #212529;
+    font-family: var(--font-family-base);
+    font-weight: 400;
     font-size: 20px;
+    line-height: 28px;
 }

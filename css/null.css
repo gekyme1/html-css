@@ -6,6 +6,15 @@ box-sizing: border-box;
 :where(ul, ol):where([class]) {
 padding-left: 0;
 }
+body {
+    font-family: var(--font-family-base);
+    min-height: 100%;
+    line-height: 1.5;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 body,
 :where(blockquote, figure):where([class]) {
 margin: 0;
@@ -48,11 +57,8 @@ html,
 :has(:target) {
 scroll-behavior: smooth;
 }
-body {
-font-family: var(--font-family-base);
-min-height: 100%;
-line-height: 1.5;
-}
+
+
 svg *[fill] { fill: currentColor }
 svg *[stroke] { stroke: currentColor }
 svg * {
