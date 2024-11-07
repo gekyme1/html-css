@@ -4,6 +4,9 @@
 @import url('./css/maincontent.css');
 @import url('./css/aboutcompany.css');
 @import url('./css/howcopanyworks.css');
+@import url('./css/projects.css');
+@import url('./css/reviews.css');
+
 :root {
   --font-family-base:'Roboto', sans-serif;
   --font-family-accent:'Helvetica', sans-serif;
@@ -13,16 +16,19 @@
   --transition-duration: 0.2s;
 }
 
-.body {
-  width:1440px;
-  height:5887px;
-  display: flex;
-  justify-content:center;
-  align-items: center;
-}
-
 .container {
   margin-inline: auto;
   max-width: calc(var(--container-width)+ var(--container-padding-x) *2);
   padding-inline: var(--container-padding-x);
 }
+
+body {
+  font-family: var(--font-family-base);
+  min-height: 100%;
+  line-height: 1.5;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+

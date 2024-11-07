@@ -6,19 +6,8 @@ box-sizing: border-box;
 :where(ul, ol):where([class]) {
 padding-left: 0;
 }
-body {
-    font-family: var(--font-family-base);
-    min-height: 100%;
-    line-height: 1.5;
-    max-width: 1440px;
-    width: 100%;
-    margin: 0 auto;
-}
 
-body,
-:where(blockquote, figure):where([class]) {
-margin: 0;
-}
+
 :where(h1, h2, h3, h4, h5, h6, p, ul, ol, dl):where([class]) {
 margin-block: 0;
 }
@@ -45,7 +34,7 @@ margin-bottom: var(--paragraphMarginBottom);
 }
 img {
 display: block;
-max-width: 100%;
+
 }
 input,textarea,select,button {
 font: inherit;
@@ -57,7 +46,6 @@ html,
 :has(:target) {
 scroll-behavior: smooth;
 }
-
 
 svg *[fill] { fill: currentColor }
 svg *[stroke] { stroke: currentColor }
