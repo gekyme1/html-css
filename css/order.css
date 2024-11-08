@@ -1,0 +1,91 @@
+#containerorder {
+    max-width: 100%;
+    min-height: 566px;
+    overflow: hidden;
+    margin-top: 120px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.contact__title {
+    min-width:678px;
+    min-height: 120px;
+    margin-left: 800px;
+    margin-top: -565px;
+    font-family: var(--font-family-accent);
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 66px;
+}
+
+.contact__text {
+    min-width:297px;
+    min-height: 22px;
+    margin-top: -26px;
+    margin-left: 800px;
+    font-family: var(--font-family-base);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.input {
+    position:relative;
+    left: 800px;
+    margin-top: 35px;
+    border:none ;
+    width: 555px;
+    height: 31px;
+    outline:none; 
+}
+
+.underline {
+    content: '';
+    display: block;
+    width: 540px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    left: 800px;
+}
+
+.form-group {
+    position: relative;
+}
+
+.label_text {position: absolute;
+    min-width: 33px;
+    min-height: 19px;
+    left: 800px;
+    top: 30px;
+    line-height: 15.5px;
+}
+
+.btn-primary_text{
+    background-color:#212529;
+    position: relative;
+    color: white;
+    border:none;
+    cursor: pointer;
+    width: 176px;
+    height: 46px;
+    left: 800px;
+    top: 30px;
+}
+
+.btn-primary_text:hover {
+    background-color:#d4b97ea2 ;
+}
+
+.contact-download-item{
+    position:absolute;
+    margin-left: 930px;
+    margin-top: 70px;
+}
+
+.contact-download{
+    position:absolute;
+    margin-left: 800px;
+    margin-top: 70px;
+}

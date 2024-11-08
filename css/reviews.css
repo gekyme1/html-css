@@ -9,7 +9,6 @@
 }
 
 .reviews {
-    margin-left: -15px;
     max-width:562px;
     max-height: 66px;
     font-family: var(--font-family-accent);
@@ -24,7 +23,6 @@
     max-width: 445px;
     min-height: 327px;
     margin-top: 20px;
-    margin-left: -15px;
 }
 
 .reviews-card2{
@@ -32,7 +30,7 @@
     max-width: 445px;
     min-height: 327px;
     margin-top: -328px;
-    margin-left: 450px;
+    margin-left: 465px;
 }
 
 .reviews-card3{
@@ -40,7 +38,7 @@
     max-width: 445px;
     min-height: 327px;
     margin-top: -328px;
-    margin-left: 920px;
+    margin-left: 935px;
 }
 
 .reviews-card__icon{

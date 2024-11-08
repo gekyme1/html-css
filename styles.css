@@ -6,7 +6,8 @@
 @import url('./css/howcopanyworks.css');
 @import url('./css/projects.css');
 @import url('./css/reviews.css');
-
+@import url('./css/order.css');
+@import url('./css/footer.css');
 :root {
   --font-family-base:'Roboto', sans-serif;
   --font-family-accent:'Helvetica', sans-serif;
@@ -19,7 +20,6 @@
 .container {
   margin-inline: auto;
   max-width: calc(var(--container-width)+ var(--container-padding-x) *2);
-  padding-inline: var(--container-padding-x);
 }
 
 body {

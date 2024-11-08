@@ -11,7 +11,6 @@
 .text-work {
     max-width: 562px;
     max-height: 66px;
-    margin-left: -15px;
     font-family: var(--font-family-accent);
     font-weight: 400;
     line-height: 66px;

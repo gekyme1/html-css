@@ -233,83 +233,82 @@
             </div>
         </div>
         <section class="contact">
-            <div class="container">
-                <div class="contact-wrap grid">
-                    <div class="contact__img">
-                        <img src="/img/bedroom-2.jpg" alt="bedroom">
+            <div class="container" id="containerorder">
+                <div class="contact__img">
+                    <img src="/img/bedroom-2.jpg" alt="bedroom">
+                </div>
+                <div class="contact-desc col">
+                    <div class="contact-desc-top">
+                        <div class="contact__title">Хотите заказать проект?</div>
+                        <div class="contact__text">Оставьте заявку, и мы вам перезвоним</div>
                     </div>
-                    <div class="contact-desc col">
-                        <div class="contact-desc-top">
-                            <h2 class="contact__title heading heading-indent">Хотите заказать проект?</h2>
-                            <p class="contact__text text">Оставьте заявку, и мы вам перезвоним</p>
-                        </div>
-                        <form class="form" method="get" action="#" autocomplete="on">
-                            <div class="form-inner">
-                                <div class="form-group">
-                                    <input class="input" id="name" type="text" required>
-                                    <label class="label text" for="name">Имя</label>
-                                </div>
-                                <div class="form-group">
-                                    <input class="input" id="email" type="email" required>
-                                    <label class="label text" for="email">E-mail</label>
-                                </div>
-                                <div class="form-group">
-                                    <input class="input" id="phone" type="tel" required>
-                                    <label class="label text" for="phone">Телефон</label>
-                                </div>
+                    <form class="form" method="get" action="#" autocomplete="on">
+                        <div class="form-inner">
+                            <div class="form-group">
+                                <input class="input" id="name" type="text" required>
+                                <span class="underline"></span>
+                                <label class="label_text" for="name">Имя</label>
                             </div>
-                            <button class="btn-primary text" type="submit">Отпрвить заявку
+                            <div class="form-group">
+                                <input class="input" id="email" type="email" required>
+                                <span class="underline"></span>
+                                <label class="label_text" for="email">E-mail</label>
+                            </div>
+                            <div class="form-group">
+                                <input class="input" id="phone" type="tel" required>
+                                <span class="underline"></span>
+                                <label class="label_text" for="phone">Телефон</label>
+                            </div>
+                        </div>
+                        <div class="button__order">
+                            <button class="btn-primary_text" type="submit">Отправить заявку
                             </button>
-                        </form>
-                        <ul class="contact-download">
-                            <li class="contact-download-item">
-                                <a class="contact-download-link" href="#" download="#">
-                                    <img src="/img/app-store.png" alt="app-store">
-                                </a>
-                            </li>
-                            <li class="contact-download-item">
-                                <a class="contact-download-link" href="#" download="#">
-                                    <img src="/img/google-play.png" alt="google-play">
-                                </a>
-                            </li>
-                        </ul>
+                        </div>
+                    </form>
+                    <div class="contact-download">
+                        <a class="contact-download-link" href="#" download="#">
+                            <img src="/img/app-store.png" alt="app-store">
+                        </a>
+                    </div>
+                    <div class="contact-download-item">
+                        <a class="contact-download-link" href="#" download="#">
+                            <img src="/img/google-play.png" alt="google-play">
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
     </main>
     <footer class="footer">
-        <div class="container">
-            <div class="footer-wrap">
-                <div class="footer-copyright">
-                    <p class="footer__text text-md-18">© 2023 Aveji</p>
-                    <p class="footer__text text-md-18">Все права защищены</p>
-                </div>
-                <ul class="footer-policy">
-                    <li class="footer-policy__item">
-                        <a class="text link" href="#">
-                            Политика конфеденцифльности
-                        </a>
-                    </li>
-                    <li class="footer-policy__item">
-                        <a class="text link" href="#">
-                            Оплата и доставка
-                        </a>
-                    </li>
-                </ul>
-                <ul class="footer-social">
-                    <li class="footer-social__item">
-                        <a class="footer__text text-md-18 link" href="#">
-                            ВКОНТАКТЕ
-                        </a>
-                    </li>
-                    <li class="footer-social__item">
-                        <a class="footer__text text-md-18 link" href="#">
-                            ТЕЛЕГРАМ
-                        </a>
-                    </li>
-                </ul>
+        <div class="container" id="container-footer">
+            <div class="footer-copyright">
+                <p class="footer__text text-md-18">© 2023 Aveji</p>
+                <p class="footer__text text-md-18">Все права защищены</p>
             </div>
+            <ul class="footer-policy">
+                <li class="footer-policy__item">
+                    <a class="footer__text__link__policy" href="#">
+                        Политика конфеденцифльности
+                    </a>
+                    <span>/</span>
+                </li>
+                <li class="footer-policy__item">
+                    <a class="footer__text__link__policy" href="#">
+                        Оплата и доставка
+                    </a>
+                </li>
+            </ul>
+            <div class="footer-social">
+                <a class="footer__social_link" href="#">
+                    ВКОНТАКТЕ
+                </a>
+            </div>
+            <div class="footer-social__item">
+                <a class="footer__social_link" href="#">
+                    ТЕЛЕГРАМ
+                </a>
+            </div>
+        </div>
         </div>
     </footer>
 </body>
