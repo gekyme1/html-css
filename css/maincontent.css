@@ -4,6 +4,10 @@
     box-sizing: border-box;
     margin-right: 32px;
     margin-left: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
     margin-top: 30px;
 }
 
@@ -11,30 +15,32 @@
     max-width:678px;
     max-height: 809px;
     margin-left: 700px;
-    margin-top: 30px;
+    margin-top:-30px;
+    margin-bottom: 20px;
 }
 
 .imagesecond {
     max-width: 329px;
     max-height: 493px;
-    margin-top: -500px;
-    margin-left: -15px;
+    margin-top:-515px;
 }
 
 .order {
+    position: absolute;
     color: #212529;
     font-family: var(--font-family-base);
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     max-width: 164px;
-    max-height:23px;
-    margin-left:1200px;
+    min-height:23px;
+    margin-left:1234px;
+    margin-top: 250px;
 }
 
 .main-text {
-    max-width: 794px;
-    align-items: left;
+    height: 270px;
+    min-width: 730px;
     text-align: left;
     font-family:var(--font-family-accent);
     font-weight: 400;
@@ -44,13 +50,14 @@
     font-size: 74px;
 }
 
-.introtext {
+.intro__text {
     max-width: 445px;
     max-height: 44px;
-    margin-top: 15px;
     color: #212529;
     font-family: var(--font-family-base);
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
+    margin-top: 40px;
+    margin-right: 300px;
 }
