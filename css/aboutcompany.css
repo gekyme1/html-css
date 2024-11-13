@@ -1,27 +1,22 @@
 #container__aboutcompany{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    max-width: 100%;
-    min-height: 589px;
+    width: 100%;
+    min-height: 640px;
     overflow: hidden;
     margin-top: 150px;
     margin-left: 32px;
     margin-right: 32px;
+    column-gap: 135px;
 }
 
 .top-text{
     max-width:562px;
     max-height:198px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family:var(--font-family-accent);
     font-weight: 400;
     font-size: 48px;
     line-height: 66.24px;
     color: #212529;
-    
 }
 
 .about-inner{
@@ -29,16 +24,13 @@
     flex-direction: column;
     max-width: 679px; 
     max-height: 208px;
-    margin-top: -176px;
+    margin-top: 39px;
+
 }
 
 .about-text {
     min-width: 446px;
     max-height: 66px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 700px;
-    flex-direction: column;
     margin-bottom: 20px;
     font-family: var(--font-family-base);
     font-weight: 400;
@@ -49,10 +41,9 @@
 .benefits{
     max-width: 678px; 
     max-height: 308px;
-    display: flex; 
+    display: flex;
+    margin-top: 44px;
     flex-direction: column;
-    margin-top:-320px;
-    margin-left:730px;
     gap:24px;
     justify-content: flex-start;
     align-items: flex-start;
