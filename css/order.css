@@ -2,16 +2,23 @@
     max-width: 100%;
     min-height: 566px;
     overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     margin-top: 120px;
+    column-gap: 136px;
     margin-left: 32px;
     margin-right: 32px;
+}
+
+.contact-desc_col {
+    display: flex;
+    flex-direction: column;
 }
 
 .contact__title {
     min-width:678px;
     min-height: 120px;
-    margin-left: 800px;
-    margin-top: -565px;
     font-family: var(--font-family-accent);
     font-weight: 400;
     font-size: 48px;
@@ -21,18 +28,15 @@
 .contact__text {
     min-width:297px;
     min-height: 22px;
-    margin-top: -26px;
-    margin-left: 800px;
     font-family: var(--font-family-base);
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
+    margin-top: 32px;
 }
 
 .input {
-    position:relative;
-    left: 800px;
-    margin-top: 35px;
+    position: absolute;
     border:none ;
     width: 555px;
     height: 31px;
@@ -42,24 +46,36 @@
 .underline {
     content: '';
     display: block;
-    width: 540px;
+    width: 560px;
     height: 1px;
     background-color: #000;
     position: absolute;
-    bottom: 0;
-    left: 800px;
+    top: 30px;
+}
+
+.form-inner {
+    display: flex;
+    position: relative;
+    margin-top: 72px;
+    flex-direction: column;
 }
 
 .form-group {
+    margin-top: 20px;
+    display: flex;
     position: relative;
 }
 
-.label_text {position: absolute;
+.label_text {
     min-width: 33px;
+    position: relative;
     min-height: 19px;
-    left: 800px;
-    top: 30px;
     line-height: 15.5px;
+    gap: 20px;
+}
+
+.button__order {
+    margin-top: 24px;
 }
 
 .btn-primary_text{
@@ -70,22 +86,14 @@
     cursor: pointer;
     width: 176px;
     height: 46px;
-    left: 800px;
-    top: 30px;
 }
 
 .btn-primary_text:hover {
     background-color:#d4b97ea2 ;
 }
 
-.contact-download-item{
-    position:absolute;
-    margin-left: 930px;
-    margin-top: 70px;
-}
-
 .contact-download{
-    position:absolute;
-    margin-left: 800px;
-    margin-top: 70px;
+    display: flex;
+    column-gap: 8px;
+    margin-top: 40px;
 }

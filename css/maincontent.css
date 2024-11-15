@@ -1,28 +1,26 @@
 #containermain {
-    max-width: 100%;
+    width: 100%;
+    min-height: 1107px;
     overflow: hidden;
     box-sizing: border-box;
     margin-right: 32px;
     margin-left: 32px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
     margin-top: 30px;
 }
 
 .imagefirst {
     max-width:678px;
     max-height: 809px;
-    margin-left: 700px;
-    margin-top:-30px;
-    margin-bottom: 20px;
+    margin-top: 300px;
+    margin-left: 30px;
 }
 
 .imagesecond {
     max-width: 329px;
     max-height: 493px;
-    margin-top:-515px;
+    margin-top: 300px;
 }
 
 .order {
@@ -34,14 +32,18 @@
     line-height: 21px;
     max-width: 164px;
     min-height:23px;
-    margin-left:1234px;
-    margin-top: 250px;
+    margin-left: 570px;
+    margin-top: 230px;
 }
 
 .main-text {
     height: 270px;
     min-width: 730px;
-    text-align: left;
+}
+
+.heading {
+    height: 270px;
+    min-width: 730px;
     font-family:var(--font-family-accent);
     font-weight: 400;
     color: #212529;
@@ -59,5 +61,7 @@
     font-size: 20px;
     line-height: 28px;
     margin-top: 40px;
-    margin-right: 300px;
 }
+
+
+
