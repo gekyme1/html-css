@@ -24,7 +24,7 @@
     display: flex;
     flex-direction: column;
     max-width: 679px; 
-    max-height: 220px;
+    min-height: 220px;
     margin-top: 39px;
     margin-left: 65px;
 }
@@ -41,7 +41,7 @@
 
 .benefits{
     max-width: 678px; 
-    max-height: 308px;
+    min-height: 308px;
     display: flex;
     margin-top: 44px;
     flex-direction: column;

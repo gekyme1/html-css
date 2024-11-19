@@ -12,14 +12,32 @@
   --font-family-base:'Roboto', sans-serif;
   --font-family-accent:'Helvetica', sans-serif;
   --input-height: 58px;
-  --container-width:1376px;
+  --container-width:1440px;
   --container-padding-x: 15px;
   --transition-duration: 0.2s;
 }
 
 .container {
   margin-inline: auto;
-  max-width: calc(var(--container-width)+ var(--container-padding-x) *2);
+  max-width:1440px;
+}
+
+@media (max-width:1230px){
+  #container__aboutcompany{
+    max-width:970px;
+  }
+}
+
+@media (max-width:992px){
+  #container__aboutcompany{
+    max-width:750px;
+  }
+}
+
+@media (max-width:767px){
+  #container__aboutcompany{
+    max-width:none;
+  }
 }
 
 body {
