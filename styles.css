@@ -8,6 +8,13 @@
 @import url('./css/reviews.css');
 @import url('./css/order.css');
 @import url('./css/footer.css');
+@import url('./css/mediamaincontent.css');
+@import url('./css/mediaaboutcompany.css');
+@import url('./css/mediacontainerworks.css');
+@import url('./css/mediacontainerprojects.css');
+@import url('./css/mediacontainerreviews.css');
+@import url('./css/mediacontainerorder.css');
+@import url('./css/mediafooter.css');
 :root {
   --font-family-base:'Roboto', sans-serif;
   --font-family-accent:'Helvetica', sans-serif;
@@ -22,33 +29,23 @@
   max-width:1440px;
 }
 
-@media (max-width:750px){
-  .heading {
-      font-size: 36px;
-      line-height: 48px;
-  }
+@media screen and (max-width: 320px) {
+.other-text {
+  width: 100%;
+  height: 30vh;
+  background-image: url('./img/livingroom.jpg');
+  background-size: cover;
+  background-position: center center;
 }
 
-@media screen and (max-width: 1454px) {
-  .imagefirst:nth-child(1) {
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-    -o-object-fit: cover;
-    object-position: center;
-  }
-
-  .imagefirst{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    
-  }
-  .imagesecond {
-    display: none;
-  }
+.imagefirst{
+  display: none;
 }
 
+.imagesecond {
+  display: none;
+}
+}
 
 body {
   font-family: var(--font-family-base);

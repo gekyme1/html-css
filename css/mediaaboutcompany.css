@@ -1,0 +1,42 @@
+@media (max-width:320px){
+#container__aboutcompany {
+    max-width: 342px;
+    min-height: 614px;
+    margin-left: 10px;
+    margin-top:0px;
+}
+
+.top-text {
+    display: none;
+}
+
+.about-company{
+    display: block;
+    font-weight: 400;
+    font-family:var(--font-family-accent);
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.about-inner {
+    margin-left: 10px;
+    display: flex;
+}
+
+.about-text {
+    font-family: var(--font-family-base);
+    font-weight: 400;
+    color: #212529;
+    font-size: 16px;
+    column-gap:20px ;
+}
+
+.benefits{
+    max-width: 161px; 
+    min-height: 249px;
+    display: flex;
+    margin-top: 32px;
+    flex-direction: column;
+    gap:20px;
+}
+}

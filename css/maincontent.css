@@ -10,13 +10,6 @@
     margin-top: 30px;
 }
 
-.imgliving {
-    
-
-}
-
-
-
 .imagefirst {
     max-width: 100%;
     margin-top: 300px;
@@ -41,12 +34,12 @@
 }
 
 .main-text {
-    height: 270px;
+    min-height: 270px;
     min-width: 730px;
 }
 
 .heading {
-    height: 270px;
+    max-height: 270px;
     min-width: 730px;
     font-family:var(--font-family-accent);
     font-weight: 400;
