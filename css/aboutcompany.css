@@ -1,8 +1,7 @@
 #container__aboutcompany{
     display: flex;
-    flex-wrap: wrap;
     width: 100%;
-    min-height: 640px;
+    min-height: 690px;
     overflow: hidden;
     margin-top: 150px;
     margin-left: 32px;
@@ -27,15 +26,34 @@
 .about-inner{
     display: flex;
     flex-direction: column;
-    max-width: 679px; 
-    min-height: 220px;
+    max-width: 450px; 
+    max-height: 220px;
     margin-top: 39px;
     margin-left: 65px;
 }
 
-.about-text {
-    min-width: 446px;
-    max-height: 66px;
+.about-text1 {
+    max-width: 350px;
+    margin-bottom: 20px;
+    font-family: var(--font-family-base);
+    font-weight: 400;
+    color: #212529;
+    font-size: 16px;
+}
+
+.about-text2 {
+    max-width: 340px;
+    max-height: 100px;
+    margin-bottom: 20px;
+    font-family: var(--font-family-base);
+    font-weight: 400;
+    color: #212529;
+    font-size: 16px;
+}
+
+.about-text3 {
+    max-width: 340px;
+    max-height: 100px;
     margin-bottom: 20px;
     font-family: var(--font-family-base);
     font-weight: 400;
