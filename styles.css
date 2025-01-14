@@ -38,6 +38,8 @@
   background-image: url('./img/livingroom.jpg');
   background-size: cover;
   background-position: center center;
+  margin:10px;
+  border-right:10px;
 }
 
 .imagefirst{

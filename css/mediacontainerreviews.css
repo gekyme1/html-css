@@ -1,99 +1,18 @@
-@media (max-width:320px){
-    #containerreviews {
-    max-width:343px ;
-    min-height: 1087px;
-    overflow: hidden;
-    margin-top: 44px;
-    margin-left: 10px;
+@media (max-width:1440px){
+    .reviews-card {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
 }
 
-.reviews {
-    max-width:213px;
-    max-height: 39px;
-    font-family: var(--font-family-accent);
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 39px;
-    color:#212529;
+.reviewscard {
+    display: grid;
+    align-items: stretch;
+    grid-template-columns: repeat(auto-fit, minmax(min(21.25rem, 100%), 1fr));
 }
-
-.reviewscards {
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    column-gap: 20px;
-}
-
-.reviews-card1{
-    border: 1px solid rgb(3, 3, 3);
-    max-width: 300px;
-    max-height: 347px;
-    margin-top: 20px;
-}
-
-.reviews-card2{
-    border: 1px solid rgb(3, 3, 3);
-    max-width: 300px;
-    max-height: 347px;
-    margin-top: 20px;
-}
-
-.reviews-card3{
-    border: 1px solid rgb(3, 3, 3);
-    max-width: 300px;
-    max-height: 347px;
-    margin-top: 20px;
-}
-
-.reviews-card__icon{
-    margin-top:32px;
-    margin-right: 155px;
-    margin-left: 150px;
-    max-width: 32px;
-    max-height: 32px;
-}
-
 .review-text {
-    min-width:136px;
-    min-height: 25px;
-    margin-left: 99px;
+    margin-left: 0px;
     margin-top: 32px;
-    font-family: var(--font-family-accent);
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-}
-
-.reviews__text1{
-    min-width: 320px;
-    font-family: var(--font-family-base);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 23px;
-    margin-left: 0;
-    margin-right: 0;
-    color:#212529;
-}
-
-.reviews__text2{
-    min-width: 320px;
-    font-family: var(--font-family-base);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 23px;
-    margin-left: 0;
-    margin-right: 0;
-    color:#212529;
-}
-
-.reviews__text3{
-    min-width: 320px;
-    font-family: var(--font-family-base);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 23px;
-    margin-left: 0;
-    margin-right: 0;
-    color:#212529;
 }
 }

@@ -1,8 +1,7 @@
 @media (max-width:1440px){
 #container__aboutcompany {
-    width: min(1470px, 1376px);
     margin-left: 10px;
-    margin-top:0px;
+    margin-top:10px;
     display: flex;
     flex-direction: column;
     max-height: auto;
