@@ -1,9 +1,6 @@
 #containerprojects{
     max-width: 100%;
-    min-height: 1278px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+
     overflow: hidden;
     margin-top: 120px;
     margin-left: 32px;
@@ -28,11 +25,7 @@
 }
 
 .image-container {
-    position: relative;
-    max-width: 446px;
-    max-height: 580px;
-    margin-bottom: 20px;
-    overflow: hidden;
+
 }
 
 .imageproject {

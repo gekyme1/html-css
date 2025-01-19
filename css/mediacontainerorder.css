@@ -1,49 +1,14 @@
-@media (max-width:320px){
+@media (max-width:1440px){
     #containerorder {
-    max-width: 345px;
-    min-height: 368px;
-    overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin-top: 48px;
-    column-gap: 136px;
-    margin-left: 10px;
-    margin-right: 14px;
+    display: block;
 }
 
-.contact__img {
+.input {
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.underline {
     display: none;
-}
-
-.contact__title {
-    max-width:320px;
-    min-height: 39px;
-    font-family: var(--font-family-accent);
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 38px;
-}
-
-.contact-desc-top {
-    max-width:320px;
-    min-height: 81px
-}
-
-.contact__text {
-    max-width:297px;
-    min-height: 22px;
-    font-family: var(--font-family-base);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    margin-top: 20px;
-}
-
-.form-inner {
-    display: flex;
-    position: relative;
-    margin-top: 32px;
-    flex-direction: column;
 }
 }

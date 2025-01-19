@@ -1,25 +1,4 @@
-@media (max-width:320px){
+@media (max-width:1440px){
     #container-footer {
-    min-width: 241px;
-    min-height: 171px;
-    overflow: hidden;
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column-reverse;
-    justify-content: space-between;
-    align-items: start;
-    margin-top: 60px;
-    margin-left: 32px;
-    margin-right: 32px;
-}
-
-.footer__social_link {
-    color: black;
-    text-decoration: none;
-    position: relative;
-    margin-top: 0;
-    margin-right: 0px;
-    margin-left: 0px;
     
-}
 }
