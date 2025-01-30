@@ -32,19 +32,16 @@
     margin-top: 230px;
 }
 
-.main-text {
-
-}
 
 .heading {
-    max-height: 270px;
-    min-width: 730px;
+    max-height: 250px;
+    max-width: 670px;
     font-family:var(--font-family-accent);
     font-weight: 400;
     color: #212529;
     text-transform: uppercase;
     line-height: 86.4px;
-    font-size: 74px;
+    font-size: 65px;
 }
 
 .intro__text {

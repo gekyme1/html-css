@@ -1,14 +1,12 @@
 #containerreviews {
-    width: 100%;
+    max-width: 100%;
     overflow: hidden;
-    margin-top: 120px;
+    margin-inline:auto;
+    margin-top: 50px;
     margin-left: 32px;
-    margin-right: 32px;
 }
 
 .reviews {
-    max-width:562px;
-    max-height: 66px;
     font-family: var(--font-family-accent);
     font-weight: 400;
     font-size: 48px;
@@ -26,9 +24,11 @@
 
 .reviews-card{
     border: 1px solid rgb(3, 3, 3);
-    max-width: 445px;
-    min-height: 327px;
-    margin-top: 32px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
 }
 
 .reviews-card__icon{
@@ -38,16 +38,11 @@
 }
 
 .review-text {
-    min-width:136px;
-    min-height: 25px;
-    margin-left: 155px;
     margin-top: 32px;
 }
 
 .reviews__text{
     margin-top: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
     text-align: center;
     font-family: var(--font-family-base);
     font-weight: 400;

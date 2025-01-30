@@ -1,9 +1,16 @@
 @media (max-width:1440px){
-    .reviews-card {
-        text-align: center;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
+#containerreviews {
+    margin-left: 10px;
+    margin-top:20px;
+
+}
+
+.reviews-card {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
 }
 
 .reviewscard {
@@ -15,4 +22,13 @@
     margin-left: 0px;
     margin-top: 32px;
 }
+}
+
+@media (max-width:1070px) {
+.reviews { 
+    font-family: var(--font-family-accent);
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;
+    color:#212529;}
 }

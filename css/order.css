@@ -17,8 +17,6 @@
 }
 
 .contact__title {
-    min-width:678px;
-    min-height: 120px;
     font-family: var(--font-family-accent);
     font-weight: 400;
     font-size: 48px;
@@ -26,8 +24,6 @@
 }
 
 .contact__text {
-    min-width:297px;
-    min-height: 22px;
     font-family: var(--font-family-base);
     font-weight: 400;
     font-size: 16px;
@@ -56,7 +52,7 @@
 .form-inner {
     display: flex;
     position: relative;
-    margin-top: 72px;
+    margin-top: 20px;
     flex-direction: column;
 }
 

@@ -12,3 +12,20 @@
     display: none;
 }
 }
+
+@media (max-width: 1070px) {
+.contact__title {
+    font-family: var(--font-family-accent);
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.form-inner {
+    margin-top: 0px;
+}
+
+#containerorder {
+    margin-top: 20px;
+}
+}

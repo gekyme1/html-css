@@ -1,12 +1,12 @@
 #container__aboutcompany{
     display: flex;
     width: 100%;
-    min-height: 690px;
+    min-height: 760px;
     overflow: hidden;
     margin-top: 150px;
     margin-left: 32px;
     margin-right: 32px;
-    column-gap: 135px;
+    column-gap: 75px;
 }
 
 .top-text{
