@@ -66,42 +66,51 @@
 }
 }
 
-@media screen and (min-width:1024px ) {
-  .menu__btn {
+@media (max-width: 1024px) {
+  .menu {
     display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    z-index: 1000; /* Убедитесь, что меню поверх других элементов */
+  }
+
+  .menu ul {
+    flex-direction: column;
+  }
+
+  .menu ul li {
+    margin: 15px 0;
+  }
+
+  .burger-menu {
+    display: flex; /* Показываем бургер-меню на мобильных */
+  }
+
+  /* Показ меню при активации чекбокса */
+  .menu-toggle:checked .menu {
+    display: block;
+  }
+
+  /* Анимация бургер-меню */
+  .menu-toggle:checked ~ .burger-menu span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .menu-toggle:checked ~ .burger-menu span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-toggle:checked ~ .burger-menu span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
   }
 }
 
-.menu__btn span{
-  display: block;
-  width: 34px;
-  transition: 0.3s;
-  height: 0.3px;
-  background-color: black;
-}
 
-.menu__btn span:first-child {
-  position: absolute;
-  top:5px;
-  right: 0px;
-}
 
-.menu__btn span:nth-child(2) {
-  position: absolute;
-  top: 10px;
-  right: 0px;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.menu__btn span:nth-child(3) {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: unset;
-  width: 20px;
-  top: 15px;
-}
 
 @media screen and (max-width:1024px) {
 .nav__list {

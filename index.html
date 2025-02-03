@@ -16,7 +16,7 @@
             <img class="header-logo-image" src="./img/logo.png" alt="Aveji" width="60" height="63" loading="lazy">
         </a>
         <div class="sidebar">
-            <nav class="nav">
+            <nav class="menu">
                 <ul class="nav__list">
                     <li class="nav__item">
                         <a class="nav__link" href="#about">
@@ -24,17 +24,17 @@
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a class="nav__link" href="#works">
+                        <a class="nav__link" href="#projects">
                             Проекты
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a class="nav__link" href="#">
+                        <a class="nav__link" href="#materials">
                             Материалы
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a class="nav__link" href="#reviews">
+                        <a class="nav__link" href="#feedback">
                             Отзывы
                         </a>
                     </li>
@@ -43,19 +43,14 @@
         </div>
         </div>
         <a class="phone__text" href="tel:79999999999"> +7 999 999 99 99</a>
-        <button class="menu__btn" type="button" aria-label="Открыть/Закрыть меню" aria-expanded="false">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="burger-menu">
             <span></span>
             <span></span>
             <span></span>
-        </button>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-
+        </label>
     </header>
+
     <main class="main">
         <selection class="intro">
             <div class="container" id="containermain">
@@ -312,6 +307,7 @@
         </div>
         </div>
     </footer>
+
 </body>
 
 </html>
