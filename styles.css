@@ -71,14 +71,14 @@
   position: fixed;
   padding-left: 10px;
   top: 0;
-  right: -10%; /* Меню скрыто за пределами экрана */
-  width: 50%; /* Меню занимает 1/4 ширины страницы */
-  height: 100vh; /* Высота на всю страницу */
-  background-color: rgb(255, 251, 251); /* Белый фон */
+  right: -10%;
+  width: 50%;
+  height: 100vh;
+  background-color: rgb(255, 251, 251);
   align-items: flex-start;
-  box-shadow: -2px 0 4px rgba(0, 0, 0, 0.1); /* Тень слева */
-  transition: right 0.4s ease-out; /* Плавное появление */
-  z-index: 1000; /* Меню поверх контента */
+  box-shadow: -2px 0 4px rgba(0, 0, 0, 0.1); 
+  transition: right 0.4s ease-out; 
+  z-index: 1000;
 }
 
 .mini__logo {
@@ -90,20 +90,21 @@
 .menu ul {
   list-style: none;
   margin: 0;
-  padding: 10px 0px 20px; /* Отступы для пунктов меню */
+  gap: 20px;
+  padding: 10px 0px 20px;
 }
 
 .menu ul li {
-  margin: 20px 0;
+  margin: 30px 0;
 }
 
 .menu ul li a {
-  color: #333; /* Цвет текста */
   text-decoration: none;
-  font-size: 24px;
-  font-family: var(--font-family-base);
+  font-size: 1.5rem;
+  line-height: 33px;
+  font-family: var(--font-family-accent);
   font-weight: 400;
-  color: #212529;
+  color: #050505;
 }
 
 .menu.active {
@@ -114,8 +115,12 @@
 .burger {
   display: flex;
   position: fixed;
-  right:20px;
-  z-index: 10000;
+  margin-left: 10px;
+  margin-top: 4px;
+}
+
+.burger-back {
+  display: block;
 }
 
 #off {
